@@ -1,0 +1,46 @@
+.Header_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: "Mulish", sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    span{
+        color: #f16821;
+        font-family: "Mulish", sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+    }
+}
+.Header_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.Header_right{
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        list-style-type: none;
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-family: "Mulish", sans-serif;
+            font-size: 16px;
+
+        }
+    }
+}
+
+.Header_right ul a:hover {
+    color: #f16821;
+}

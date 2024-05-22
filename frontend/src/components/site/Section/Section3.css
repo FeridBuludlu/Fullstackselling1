@@ -1,0 +1,66 @@
+.Section3_main {
+  background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  padding: 40px;
+  h5 {
+    font-size: 13px;
+    color: #adb5bd;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-family: "Mulish", sans-serif;
+  }
+  p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+  }
+}
+.Section3_main:before {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.section3 {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+}
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 30px;
+  .trasparent_button {
+    color: #fff;
+    background-color: transparent;
+    font-family: "Mulish", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 16px 48px;
+    border: 2px solid white;
+  }
+}

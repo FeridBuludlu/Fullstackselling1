@@ -1,0 +1,77 @@
+.Section1_main {
+  background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  padding: 40px;
+  h1 {
+    font-size: 80px;
+    font-weight: 400;
+    color: #fff;
+    font-weight: 900;
+    font-family: "Mulish", sans-serif;
+  }
+  p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+
+  }
+}
+.Section1_main:before{
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.section1{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    .trasparent_button {
+        color: #fff;
+        background-color: transparent;
+        font-family: "Mulish", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 16px 48px;
+        border: 2px solid white;
+        transition: calc(0.4s);
+      }
+    .trasparent_button:hover{
+      background-color: white;
+      color: black;
+    }
+    
+      .normal_button{
+        border-width: 2px;
+        border-color: #fff;
+        background: #fff;
+        color: #000;
+        font-family: "Mulish", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 16px 48px;
+      }
+    .normal_button:hover{
+      background-color: transparent;
+      color: white;
+      border-color:none;
+    }
+}
